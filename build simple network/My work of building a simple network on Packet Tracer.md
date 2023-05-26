@@ -13,4 +13,5 @@ So for this little project of making a simple network :
 - i then added a dns for the server ip (192.168.1.254 to www.becode.org)
 - And I can acces this website from the pc and this is it !
 
-build simple network/Pasted image 20230526143904.png
+[build simple network/Pasted image 20230526143904.png
+](https://github.com/Oussama-Maati/my_becode_work/blob/main/build%20simple%20network/Pasted%20image%2020230526143904.png?raw=true)
