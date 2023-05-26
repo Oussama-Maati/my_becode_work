@@ -13,4 +13,5 @@ So for this little project of making a simple network :
 - i then added a dns for the server ip (192.168.1.254 to www.becode.org)
 - And I can acces this website from the pc and this is it !
 
-[[Pasted image 20230526143904.png]]
+![plot](./Pasted image 20230526143904.png.png)
+[[]]
