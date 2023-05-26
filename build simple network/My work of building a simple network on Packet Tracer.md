@@ -14,4 +14,3 @@ So for this little project of making a simple network :
 - And I can acces this website from the pc and this is it !
 
 ![plot](./Pasted image 20230526143904.png.png)
-[[]]
