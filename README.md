@@ -10,7 +10,7 @@ Within the `python_challenge` subfolder, you will find a collection of Python sc
 
 ## Build Simple Network
 
-[Build Simple Network](./build_simple_network) is another subfolder within this repository that focuses on building a simple network. This section of my bootcamp curriculum covers the fundamental concepts of networking and explores how to construct a basic network using various technologies.
+[Build Simple Network](./build simple network) is another subfolder within this repository that focuses on building a simple network. This section of my bootcamp curriculum covers the fundamental concepts of networking and explores how to construct a basic network using various technologies.
 
 In the `build_simple_network` subfolder, you will find relevant documentation, code samples, and configuration files that demonstrate the process of building a network from scratch. This includes topics such as IP addressing, subnetting, routing, and network security. By working on these exercises, I aim to gain a solid understanding of network infrastructure and protocols.
 
