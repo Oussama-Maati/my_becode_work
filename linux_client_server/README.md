@@ -1,7 +1,7 @@
 # Implementing Linux-Based Infrastructure with Virtual Machines for the Local Library
 
 ## My Documentation after finished the project.
-[PDF Documentation](./LinuxBrief_oussama.docx) 
+[PDF Documentation](./LinuxBrief_oussama.pdf) 
 
 ## Project context 
 The local library in your little town has no funding for Windows licenses so the director is considering Linux. Some users are sceptical and ask for a demo. The local IT company where you work is taking up the project and you are in charge of setting up a server and a workstation.
