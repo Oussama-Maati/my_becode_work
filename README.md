@@ -15,3 +15,15 @@ Within the `python_challenge` subfolder, you will find a collection of Python sc
 In the `build_simple_network` subfolder, you will find relevant a readme documentation, code samples, and configuration files that demonstrate the process of building a network from scratch. This includes topics such as IP addressing, subnetting, routing, and network security. By working on these exercises, I aim to gain a solid understanding of network infrastructure and protocols.
 
 Feel free to navigate through the repository and explore the subfolders to gain insights into my learning journey during this bootcamp.
+
+[Linux network services](./linux_client_server/) this subfolder is a project to create client server network :  
+
+In the project context, the local library is considering Linux due to a lack of funding for Windows licenses. To demonstrate the benefits of Linux, you have been assigned to set up a server and a workstation using virtual machines. The goal is to showcase the functionality of Linux and address any skepticism from users.
+
+The main focus is on establishing a Linux infrastructure with various services. The server, without a GUI, will run essential services such as DHCP, DNS, and HTTP+MariaDB for an internal website running GLPI. Additionally, it is required to create weekly backups of the configuration files for each service and ensure the server is remotely manageable via SSH.
+
+As for the workstation, it should have a desktop environment with essential applications like LibreOffice, GIMP, and a web browser. The workstation should use automatic addressing, and it is preferable to allocate a separate partition on the same disk for the /home folder.
+
+While not mandatory, you have the option to propose and implement a solution for remote user assistance to further enhance the functionality of the Linux setup.
+
+For more detailed information, please refer to the Linux network services section.
