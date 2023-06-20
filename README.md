@@ -16,6 +16,8 @@ In the `build_simple_network` subfolder, you will find relevant a readme documen
 
 Feel free to navigate through the repository and explore the subfolders to gain insights into my learning journey during this bootcamp.
 
+## Create client server network
+
 [Linux network services](./linux_client_server/) this subfolder is a project to create client server network :  
 
 In the project context, the local library is considering Linux due to a lack of funding for Windows licenses. To demonstrate the benefits of Linux, you have been assigned to set up a server and a workstation using virtual machines. The goal is to showcase the functionality of Linux and address any skepticism from users.
@@ -27,3 +29,5 @@ As for the workstation, it should have a desktop environment with essential appl
 While not mandatory, you have the option to propose and implement a solution for remote user assistance to further enhance the functionality of the Linux setup.
 
 For more detailed information, please refer to the Linux network services section.
+
+[CTF Flags](./Flags/) This subfolder is used to put encrypted file text containing my flags found on multiple ctf done during the bootcamp ( the public key is sent to my coach)
