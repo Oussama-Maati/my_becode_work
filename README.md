@@ -30,6 +30,10 @@ While not mandatory, you have the option to propose and implement a solution for
 
 For more detailed information, please refer to the Linux network services section.
 
+## Windows server and challenge
+
+[Windows](./windows_challenge/) This subfolder will contains the windows challenge that contains windows server management exercice and also a little script that contains a powershell function to get somes information about the times of boot and shutdown of the device. 
+
 ## Flag
 
 [CTF Flags](./Flags/) This subfolder is used to put encrypted file text containing my flags found on multiple ctf done during the bootcamp ( the public key is sent to my coach)
