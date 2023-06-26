@@ -20,7 +20,7 @@ function Get-shut-boot-info {
 	$formattedUpTime = "{0:%d} days, {0:%h} hours, {0:%m} minutes, {0:%s} seconds" -f $uptime 
 
 	# Which user
-	$lastLoggedInUser = (Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4624} -MaxEvents 10 | Sort-Object TimeCreated -Descending | ForEach-Object { $_.Properties[5].Value } | 		Select-Object -First 1) -replace ".*\\"
+	$lastLoggedInUser = (Get-WinEvent -FilterHashtable @{LogName='Security'; ID=4624} -MaxEvents 10 | Sort-Object TimeCreated -Descending | ForEach-Object { $_.Properties[5].Value } | Select-Object -First 1) -replace ".*\\"
 
 	Write-Host "--------------------------"
 	Write-Host "Computer : $DeviceName"
@@ -29,16 +29,12 @@ function Get-shut-boot-info {
 	Write-Host "`t`t`t`tLast boot time: $lastBootTime"
 	Write-Host "`t`t`t`tDowntime Duration: $formattedDuration"
 	Write-Host "`t`t`t`tCurrent Uptime: $formattedUpTime"
-	
-	if ($lastLoggedInUser) {
-    		Write-Host "`t`t`t`tLast logged-in user: $lastLoggedInUser"
-	} else {
-    		Write-Host "`t`t`t`tNo logged-in users found"
-	}
+
+	$lastLoggedUser = Get-CimInstance -ClassName Win32_ComputerSystem | Select-Object -ExpandProperty UserName
+	Write-Host "`t`t`t`tLast user shutdown or reboot : $lastLoggedUser"
 
 	Write-Host "`n`n"
 }
-
 
 
 
