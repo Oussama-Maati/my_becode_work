@@ -37,3 +37,8 @@ For more detailed information, please refer to the Linux network services sectio
 ## Flag
 
 [CTF Flags](./Flags/) This subfolder is used to put encrypted file text containing my flags found on multiple ctf done during the bootcamp ( the public key is sent to my coach)
+
+
+## Phishing 
+
+[Phishing Intro](./phishing/) This subfolder contain a report of somes mails to check if these are actual phishing mail or actual compagnies mail with nothing dangerous.
