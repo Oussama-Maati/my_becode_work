@@ -41,4 +41,4 @@ For more detailed information, please refer to the Linux network services sectio
 
 ## Phishing 
 
-[Phishing Intro](./phishing/) This subfolder contain a report of somes mails to check if these are actual phishing mail or actual compagnies mail with nothing dangerous.
+[Phishing Intro](./phishing/) This subfolder contain a report of somes mails to check if these are actual phishing mail or actual compagnies mail with nothing dangerous. It also contains a folder with a phishing like website that I made on the theme "Bob has a dog (a bull terrier) named "Shimi". Bob really loves his dog".

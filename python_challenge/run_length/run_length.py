@@ -1,3 +1,3 @@
-# def encode(word):
-#     for letter in word:
-#          while
+def encode(word):
+    for letter in word:
+         while
