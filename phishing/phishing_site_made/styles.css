@@ -63,7 +63,7 @@ button:active {
   width: 80%;
   margin: 10px auto;
   padding: 9px;
-  border: 5px solid orange;
+  border: 5px solid rgb(255, 166, 0);
   border-radius: 15px;
 }
 
@@ -87,6 +87,8 @@ h1, h2 {margin: 10px;}
   position: absolute;
   top: -10px;
   animation: confetti 3s infinite;
+  box-shadow: 0 0 5px 2px #fff;
+  border-radius: 15px;
 }
 
 @keyframes confetti {
@@ -99,4 +101,5 @@ h1, h2 {margin: 10px;}
     opacity: 0;
   }
 }
+
 
