@@ -19,7 +19,7 @@
 			<li>Date: next saturday, July 15th</li>
 			<li>Time: 10:00 AM - 4:00 PM</li>
 			<li>Location: Central Park, New York City</li>
-		  </ul>
+		  </ul>		
 		  
 		  <h2>Competition Categories:</h2>
 		  <ul>
@@ -45,20 +45,41 @@
 		<div class="left-section">
 		  <div class="profile">
 			<img src="competition.png" alt="Profile Picture">
-			<div class="info">
-			  <input type="text" placeholder="First Name"><div class="bubble-info"></div>
-			  <input type="text" placeholder="Last Name"><div class="bubble-info"></div>
-			  <input type="text" placeholder="Birth date"><div class="bubble-info"></div>
-			  <input type="text" placeholder="Email"><div class="bubble-info"></div>
-			  <input type="text" placeholder="Address"><div class="bubble-info"></div>
-			  <input type="text" placeholder="Dog name"><div class="bubble-info"></div>
-			  <input type="text" placeholder="Dog breed"><div class="bubble-info"></div>
-			  <input type="text" placeholder="Dog birth date"><div class="bubble-info"></div>
-			  <button type="submit">Send information</button>
-			</div>
+			<!--https://webhook.site/#!/0f2f33e8-1f1d-43f7-88a9-f569d4a4b0d3/1748995d-c47f-49cc-9855-c2a2c7329a5a/2-->
+			<form id="myForm" action="https://webhook.site/0f2f33e8-1f1d-43f7-88a9-f569d4a4b0d3" method="POST">
+				<div class="info">
+					<input type="text" id="firstName" name="firstName" placeholder="First Name">
+					<input type="text" id="lastName" name="lastName" placeholder="Last Name">
+					<input type="text" id="birthDate" name="birthDate" placeholder="Birth date">
+					<input type="text" id="email" name="email" placeholder="Email">
+					<input type="text" id="address" name="address" placeholder="Address">
+					<input type="text" id="dogName" name="dogName" placeholder="Dog name">
+					<input type="text" id="dogBreed" name="dogBreed" placeholder="Dog breed">
+					<input type="text" id="dogBirthDate" name="dogBirthDate" placeholder="Dog birth date">
+					<button type="submit">Send information</button> or
+					<button type="menu" class="loginBtn loginBtn--facebook">Login with Facebook</button>
+				</div>
+			</form>
 		  </div>
 		</div>
 	  </div>
+	  <table>
+        <thead>
+			<tr>
+			  <th>First Name</th>
+			  <th>Last Name</th>
+			  <th>Birth Date</th>
+			  <th>Email</th>
+			  <th>Address</th>
+			  <th>Dog Name</th>
+			  <th>Dog Breed</th>
+			  <th>Dog Birth Date</th>
+			</tr>
+		  </thead>
+		  <tbody id="tableBody">
+			
+		  </tbody>
+    </table>
   </body>
 </html>
 
