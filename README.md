@@ -8,6 +8,8 @@ This repository documents my journey through the bootcamp at BeCode, where I am 
 
 Within the `python_challenge` subfolder, you will find a collection of Python scripts, each corresponding to a specific challenge.
 
+[Flask project](./python_challenge/flask_/) is the biggest and most used Python project that was linked to multiple subproject, it was used to make a "Contact us !" website with FLask to use GET and POST method, and link this website to a database and table, using Python, Flask library, html, css, jinja, SQL, SQLAlchemy, and multiple other usefull library and framework. 
+
 ## Build Simple Network
 
 [Build Simple Network](./build%20simple%20network) is another subfolder within this repository that focuses on building a simple network. This section of my bootcamp curriculum covers the fundamental concepts of networking and explores how to construct a basic network using various technologies.

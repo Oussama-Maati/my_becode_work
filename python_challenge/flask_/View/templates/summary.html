@@ -1,0 +1,17 @@
+{% extends 'index.html.jinja' %}
+
+{% block title %}Thank you for contacting us{% endblock %}
+
+{% block content %}
+    <form>
+        <h1>Thank you for contacting us</h1>
+        <p>Here is a summary of your data :</p>
+        <p>First name : {{ first_name }}</p>
+        <p>Last name : {{ last_name }}</p>
+        <p>Email : {{ email }}</p>
+        <p>Country : {{ country }}</p>
+        <p>Message : {{ message }}</p>
+        <p>Gender : {{ gender }}</p>
+        <p>Subject : {{ topics|join(', ') }}</p>
+    </form>
+{% endblock %}

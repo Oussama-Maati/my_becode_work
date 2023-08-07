@@ -1,0 +1,79 @@
+{% extends 'index.html.jinja' %}
+
+{% block title %}Contact us{% endblock %}
+
+{% block content %}
+    <form  method="post">
+        <h1>Contact us</h1>
+
+        <label for="first_name">First name :</label>
+        <div class="error-bubble-container">
+            <input type="text" name="first_name" required value="{{ form_data.first_name | escape if form_data else '' }}">
+            {% if errors and errors['error0'] %}
+            <div class="error-bubble">{{ errors['error0'] }}</div>
+            {% endif %}
+            <br>
+        </div>
+
+        <label for="last_name">Last name :</label>
+        <div class="error-bubble-container">
+        <input type="text" name="last_name" required value="{{ form_data.last_name | escape if form_data else '' }}">
+        {% if errors and errors['error1'] %}
+        <div class="error-bubble">{{ errors['error1'] }}</div>
+        {% endif %}
+        </div>
+
+
+        <label for="email">Email</label>
+        <div class="error-bubble-container">
+        <input type="email" name="email" required value="{{ form_data.email | escape if form_data else '' }}">
+        {% if errors and errors['email_error'] %}
+        <div class="error-bubble">{{ errors['email_error'] }}</div>
+        {% endif %}
+        </div>
+        <br>
+        <label for="country">Country :</label>
+        <select name="country" required>
+            <option value="France">France</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Germany">Germany</option>
+            <option value="Luxembourg">Luxembourg</option>
+            <option value="Italia">Italia</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Spain">Spain</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Netherlands">Netherlands</option>
+        </select>
+        <br>
+        <label for="message">Message :</label>
+        <div class="error-bubble-container">
+            <textarea name="message" required>{{ form_data.message | escape if form_data else '' }}</textarea>
+            {% if errors and errors['error2'] %}
+            <div class="error-bubble">{{ errors['error2'] }}</div>
+            {% endif %}
+        </div>
+
+
+
+        <br>
+        <label>Gender :</label>
+        <input type="radio" name="gender" value="Male" required> Man
+        <input  type="radio" name="gender" value="Female" required> Woman
+        <br><br>
+
+        <label>Subject :</label>
+        <div class="error-bubble-container">
+        <input type="checkbox" name="topics" value="Reparation"> Reparation
+        <input type="checkbox" name="topics" value="Command"> Command
+        <input type="checkbox" name="topics" value="Autre"> Other
+        {% if errors and errors['topic_error'] %}
+        <div class="error-bubble">{{ errors['topic_error'] }}</div>
+        {% endif %}
+        </div>
+        <br>
+        <input type="text" name="bot_field" style="display: none;">
+
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}
