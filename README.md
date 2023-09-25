@@ -2,13 +2,27 @@
 
 This repository documents my journey through the bootcamp at BeCode, where I am actively learning and improving my skills in various programming concepts. Below, you will find an overview of the work I have done so far.
 
+- [Python Challenge](#python-challenge)
+- [Flask project](#flask-project)
+- [Build Simple Network](#build-simple-network)
+- [Linux network services](#create-client-server-network)
+- [Windows](#windows-server-and-challenge)
+- [CTF Flags](#flag)
+- [Phishing](#phishing)
+
+
+
 ## Python Challenge
 
 [Python Challenge](./python_challenge) is a subfolder within this repository that contains my solutions to a series of Python coding challenges. These challenges have helped me practice and enhance my Python programming skills. Each challenge is designed to test different aspects of Python, ranging from basic syntax to more advanced concepts like algorithms and data structures.
 
 Within the `python_challenge` subfolder, you will find a collection of Python scripts, each corresponding to a specific challenge.
 
+
+## Flask project
+
 [Flask project](./python_challenge/flask_/) is the biggest and most used Python project that was linked to multiple subproject, it was used to make a "Contact us !" website with FLask to use GET and POST method, and link this website to a database and table, using Python, Flask library, html, css, jinja, SQL, SQLAlchemy, and multiple other usefull library and framework. 
+
 
 ## Build Simple Network
 
@@ -17,6 +31,7 @@ Within the `python_challenge` subfolder, you will find a collection of Python sc
 In the `build_simple_network` subfolder, you will find relevant a readme documentation, code samples, and configuration files that demonstrate the process of building a network from scratch. This includes topics such as IP addressing, subnetting, routing, and network security. By working on these exercises, I aim to gain a solid understanding of network infrastructure and protocols.
 
 Feel free to navigate through the repository and explore the subfolders to gain insights into my learning journey during this bootcamp.
+
 
 ## Create client server network
 
@@ -32,9 +47,11 @@ While not mandatory, you have the option to propose and implement a solution for
 
 For more detailed information, please refer to the Linux network services section.
 
+
 ## Windows server and challenge
 
 [Windows](./windows_challenge/) This subfolder will contains the windows challenge that contains windows server management exercice and also a little script that contains a powershell function to get somes information about the times of boot and shutdown of the device. The script was tested and working on windows 10 and windows server 2019.
+
 
 ## Flag
 
@@ -44,3 +61,8 @@ For more detailed information, please refer to the Linux network services sectio
 ## Phishing 
 
 [Phishing Intro](./phishing/) This subfolder contain a report of somes mails to check if these are actual phishing mail or actual compagnies mail with nothing dangerous. It also contains a folder with a phishing like website that I made on the theme "Bob has a dog (a bull terrier) named "Shimi". Bob really loves his dog".
+
+
+## Red Team
+
+[Red Team](./RedTeamLab/) This subfolder practice about The Cyber Kill Chains and all the steps about it. Using well knows basics tools for pentesting and recon, the files are encrypted as it contains sensitive data about the bootcamp compagny. 
